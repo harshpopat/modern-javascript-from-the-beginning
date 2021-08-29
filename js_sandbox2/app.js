@@ -26,4 +26,6 @@ val = Math.random(); //this does not give random whole no
 
 val = Math.floor(Math.random() * 20 + 1);
 
+//the above method is used to generate a random integer between 1 and 20.
+
 console.log(val);
