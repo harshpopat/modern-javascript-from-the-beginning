@@ -11,7 +11,7 @@ class Person {
   }
 }
 
-class Customer extends Person {
+class Customer extends Person {                         // we inherited the person class
   constructor(firstName, lastName, phone, membership) {
     super(firstName, lastName);  // super() calls the parent class constructor
 
