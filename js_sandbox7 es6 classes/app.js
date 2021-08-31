@@ -10,7 +10,7 @@ class Person {
     return `Hello there ${this.firstName} ${this.lastName}`;
   }
 
-  //any function/method declared inside the class is by default added into th e prototype
+  //any function/method declared inside the class is by default added into the prototype
 }
 
 const mary = new Person('Mary', 'Cooper');
